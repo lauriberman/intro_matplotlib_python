@@ -35,4 +35,13 @@ if __name__ == '__main__':
 
     # Crear acá su gráfico
 
+    fig = plt.figure()
+    fig.suptitle('Line Plot Ej 1', fontsize=15)
+    ax = fig.add_subplot()
+
+    ax.plot(x, y, c='violet', label='x range')
+    ax.legend()
+    ax.grid()
+    plt.show()
+
     print("terminamos")
